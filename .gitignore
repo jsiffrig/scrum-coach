@@ -1,0 +1,131 @@
+# =============================================================================
+# Environment + secrets
+# =============================================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+.aws/
+.scaleway/
+
+# =============================================================================
+# Python (uv)
+# =============================================================================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+pip-log.txt
+pip-delete-this-directory.txt
+*.egg-info/
+*.egg
+MANIFEST
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+.installed.cfg
+
+# =============================================================================
+# Next.js + Node
+# =============================================================================
+node_modules/
+.next/
+out/
+.turbo/
+.vercel/
+.swc/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+package-lock.json.bak
+
+# =============================================================================
+# Docker
+# =============================================================================
+docker-compose.override.yml
+.docker/
+
+# =============================================================================
+# Data + outputs (large / generated / scraped)
+# =============================================================================
+data/sources/scraped/*
+!data/sources/scraped/.gitkeep
+data/sources/regulations/*.pdf
+data/sources/drills/*.mp4
+data/sources/drills/*.mov
+outputs/
+artifacts/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# =============================================================================
+# IDE / editor
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject
+.spyproject
+.ropeproject
+.history/
+
+# =============================================================================
+# OS
+# =============================================================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# =============================================================================
+# Logs + temp
+# =============================================================================
+*.log
+logs/
+tmp/
+temp/
+.cache/
