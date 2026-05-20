@@ -9,7 +9,7 @@ Early-stage MVP, scaffold initialisé **20 mai 2026**. Ship cible : **août-sept
 ## Structure
 
 ```
-scrum-coach-assistant/
+scrum-coach/
 ├── backend/      # FastAPI + RAG + LLM orchestration (Python 3.12, uv)
 ├── frontend/     # Next.js 16 UI (placeholder, init Sprint 1)
 ├── docs/         # ADR, design specs, interview notes

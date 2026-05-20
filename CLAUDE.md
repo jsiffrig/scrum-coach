@@ -46,7 +46,7 @@ Ship cible : **août-septembre 2026**, ~12 semaines de dev depuis 20 mai 2026.
 ## INFRASTRUCTURE PRÉVUE
 - MSI Vector 16 HX AI A2X — Ubuntu 24.04 (dev local, **PAS de GPU requis** pour Coach Assistant)
 - Python : **uv** — TOUJOURS `uv add`, jamais `pip install`
-- Projet : `~/projects/scrum-coach-assistant`
+- Projet : `~/projects/scrum-coach`
 
 Stack pressentie (à confirmer par ADR Sprint 1) :
 - **Backend** : Python 3.12 + FastAPI + Pydantic v2 + SQLAlchemy 2 + Alembic

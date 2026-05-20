@@ -1,5 +1,5 @@
 [project]
-name = "scrum-coach-assistant"
+name = "scrum-coach"
 version = "0.0.1"
 description = "LLM + RAG SaaS assistant for amateur rugby coaches (FR multi-fédération)."
 readme = "../README.md"
@@ -42,8 +42,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/jsiffrig/scrum-coach-assistant"
-Repository = "https://github.com/jsiffrig/scrum-coach-assistant"
+Homepage = "https://github.com/jsiffrig/scrum-coach"
+Repository = "https://github.com/jsiffrig/scrum-coach"
 
 [build-system]
 requires = ["hatchling"]
